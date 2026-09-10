@@ -1,0 +1,25 @@
+# Dados brutos do ENEM (baixados automaticamente pelo notebook)
+*.zip
+microdados_enem_2025.zip
+PARTICIPANTES_2025.csv
+RESULTADOS_2025.csv
+ITENS_PROVA_2025.csv
+participantes_limpo.csv
+resultados_limpo.csv
+dados_extraidos/
+
+# Mantém apenas a tabela final agregada
+*.csv
+!tabela_municipio_final.csv
+!outputs/tabela_municipio_final.csv
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Sistema
+.DS_Store
+Thumbs.db
