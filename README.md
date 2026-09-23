@@ -1,6 +1,6 @@
 # 📊 enem-vulnerabilidade-wls-spatial
 
-Estudo ecológico sobre vulnerabilidade socioeconômica e desempenho no ENEM 2025 por município — regressão ponderada (WLS) com erros-padrão robustos, análise de autocorrelação espacial (Índice de Moran) e comparação com modelos de Machine Learning (Ridge, Lasso, Random Forest).
+Estudo ecológico sobre vulnerabilidade socioeconômica e desempenho no ENEM 2025 por município - regressão ponderada (WLS) com erros-padrão robustos, análise de auto-correlação espacial (Índice de Moran) e comparação com modelos de Machine Learning (Ridge, Lasso, Random Forest).
 
 *An ecological study on socioeconomic vulnerability and ENEM 2025 performance across Brazilian municipalities — weighted least squares (WLS) with robust standard errors, spatial autocorrelation testing (Moran's I), and benchmarking against Ridge, Lasso, and Random Forest models.*
 
@@ -18,7 +18,7 @@ Este projeto investiga a relação entre a situação socioeconômica dos candid
 
 **Pergunta de pesquisa:** municípios com maior vulnerabilidade socioeconômica entre os participantes apresentam, em média, desempenho mais baixo na prova? Quão forte é essa relação, e ela é estatisticamente significativa, ou pode ser explicada por acaso amostral?
 
-**Resposta:** sim. Os dados analisados apresentam uma associação negativa forte e estatisticamente significativa entre vulnerabilidade socioeconômica e desempenho médio municipal, consistente em diferentes especificações do índice, modelos preditivos, recortes territoriais e testes de robustez — mas não interpretável como relação causal, dado o desenho observacional e agregado do estudo.
+**Resposta:** sim. Os dados analisados apresentam uma associação negativa forte e estatisticamente significativa entre vulnerabilidade socioeconômica e desempenho médio municipal, consistente em diferentes especificações do índice, modelos preditivos, recortes territoriais e testes de robustez, mas não interpretável como relação causal, dado o desenho observacional e agregado do estudo.
 
 ### Fonte dos dados
 
@@ -26,7 +26,7 @@ Microdados oficiais do ENEM 2025, disponibilizados publicamente pelo Instituto N
 
 > INSTITUTO NACIONAL DE ESTUDOS E PESQUISAS EDUCACIONAIS ANÍSIO TEIXEIRA. **Microdados do Enem 2025**. Brasília: Inep, 2026. Disponível em: https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem.
 
-**Desenho ecológico:** este é um estudo de desenho ecológico — as variáveis são medidas e analisadas no nível agregado do município, não no nível individual. As bases oficiais de participantes e de resultados do ENEM não possuem uma chave de ligação entre si, uma decisão deliberada do INEP em conformidade com a Lei Geral de Proteção de Dados (LGPD).
+**Desenho ecológico:** este é um estudo de desenho ecológico, as variáveis são medidas e analisadas no nível agregado do município, não no nível individual. As bases oficiais de participantes e de resultados do ENEM não possuem uma chave de ligação entre si, uma decisão deliberada do INEP em conformidade com a Lei Geral de Proteção de Dados (LGPD).
 
 ### Metodologia
 
@@ -77,7 +77,7 @@ O estudo é conduzido em duas camadas complementares, ambas no nível municipal:
 
 `Python 3.12` · `pandas` · `numpy` · `scipy` · `statsmodels` · `scikit-learn` · `matplotlib` · `requests` / `gdown` (aquisição de dados)
 
-### Estrutura sugerida do repositório
+### Estrutura do repositório
 
 ```
 enem-vulnerabilidade-wls-spatial/
