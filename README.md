@@ -155,7 +155,7 @@ O agente também aplica um guardrail de escopo, respondendo apenas a perguntas r
 
 `Python 3.12` · `pandas` · `numpy` · `scipy` · `statsmodels` · `scikit learn` · `matplotlib` · `requests` e `gdown` (aquisição de dados) · `Azure SQL Database` · `Power BI Desktop` · `OpenAI SDK` com endpoint `NVIDIA NIM`
 
-### Estrutura sugerida do repositório
+### Estrutura do repositório
 
 ```
 white-cube-radareduca-enem/
@@ -186,7 +186,6 @@ white-cube-radareduca-enem/
 ### Autores, Grupo 02
 
 * Joao Lucas Ikezaki
-* Jullyane Freitas de Lima Magalhães
 * Marco Aurélio Costa da Silva
 * Rogério Sá de Macedo
 * Wendson Ferreira Santos Fernandes
@@ -340,7 +339,7 @@ The agent also applies a scope guardrail, answering only questions related to th
 
 `Python 3.12` · `pandas` · `numpy` · `scipy` · `statsmodels` · `scikit learn` · `matplotlib` · `requests` and `gdown` (data acquisition) · `Azure SQL Database` · `Power BI Desktop` · `OpenAI SDK` with the `NVIDIA NIM` endpoint
 
-### Suggested repository structure
+### Repository structure
 
 ```
 white-cube-radareduca-enem/
@@ -371,7 +370,6 @@ white-cube-radareduca-enem/
 ### Authors, Group 02
 
 * Joao Lucas Ikezaki
-* Jullyane Freitas de Lima Magalhães
 * Marco Aurélio Costa da Silva
 * Rogério Sá de Macedo
 * Wendson Ferreira Santos Fernandes
